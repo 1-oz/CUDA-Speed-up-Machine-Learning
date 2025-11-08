@@ -1,7 +1,6 @@
 #!/bin/bash
 
 #SBATCH --job-name=MachineLearning
-#SBATCH --account=mpcs51087
 #SBATCH --partition=caslake
 #SBATCH --output=machinelearning_%j.log         
 #SBATCH --error=error_%j.log
